@@ -17,7 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 67331595876849742ae956a97c04cea8
   m_SerializeEntries:
-  - m_GUID: e7fa5af57ce913346a83ceae70ebcf5b
+  - m_GUID: 0990a2e5b77ba6e4bb1331a8f9963e75
+    m_Address: _Project/Bytes/mscorlib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7366f8ed24d5cbc488c7077c8f50f45d
     m_Address: _Project/Bytes/HotUpdate
     m_ReadOnly: 0
     m_SerializedLabels: []

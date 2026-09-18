@@ -43,4 +43,8 @@ public class Main
         model.transform.localScale = Vector3.one;
         model.transform.rotation = Quaternion.identity;
     }
+    public void UnLoad()
+    {
+        ResourceLoadManager.Instance.UnloadAll();
+    }
 }

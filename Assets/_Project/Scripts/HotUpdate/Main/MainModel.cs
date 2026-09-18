@@ -9,6 +9,6 @@ public class MainModel : BaseModel
 
     public void SetData()
     {
-        showText = "Hello World!!!!";
+        showText = "Hello World!";
     }
 }

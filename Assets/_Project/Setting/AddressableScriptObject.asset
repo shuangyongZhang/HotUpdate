@@ -167,7 +167,11 @@ MonoBehaviour:
     - fullPath: Assets/_Project/Bytes/HotUpdate.dll.bytes
       fileName: HotUpdate.dll.bytes
       Address: _Project/Bytes/HotUpdate
-      obj: {fileID: 4900000, guid: e7fa5af57ce913346a83ceae70ebcf5b, type: 3}
+      obj: {fileID: 4900000, guid: 7366f8ed24d5cbc488c7077c8f50f45d, type: 3}
+    - fullPath: Assets/_Project/Bytes/mscorlib.dll.bytes
+      fileName: mscorlib.dll.bytes
+      Address: _Project/Bytes/mscorlib
+      obj: {fileID: 4900000, guid: 0990a2e5b77ba6e4bb1331a8f9963e75, type: 3}
   - pathMatch: scene
     pathExclude: TextMesh Pro
     suffixMatch: .unity
