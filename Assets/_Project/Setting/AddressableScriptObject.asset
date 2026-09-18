@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400ed750ccf276241adeb8403738534c, type: 3}
+  m_Name: AddressableScriptObject
+  m_EditorClassIdentifier: 
+  AddressMatches:
+  - pathMatch: texture
+    pathExclude: TextMesh Pro
+    suffixMatch: .png,.jpg,.tga
+    groupName: Texture
+    AddressPaths:
+    - fullPath: Assets/_Project/Texture/bird_transparent.png
+      fileName: bird_transparent.png
+      Address: _Project/Texture/bird_transparent
+      obj: {fileID: 2800000, guid: e06e9dffb21a5b44484db567c96ab485, type: 3}
+    - fullPath: Assets/_Project/Texture/bump1.png
+      fileName: bump1.png
+      Address: _Project/Texture/bump1
+      obj: {fileID: 2800000, guid: e6d71add2dfbcb945a911691ff5113d7, type: 3}
+    - fullPath: Assets/_Project/Texture/bump2.png
+      fileName: bump2.png
+      Address: _Project/Texture/bump2
+      obj: {fileID: 2800000, guid: 2e4d4e73561f5864295dbb0d718531fd, type: 3}
+    - fullPath: Assets/_Project/Texture/burn_noise.png
+      fileName: burn_noise.png
+      Address: _Project/Texture/burn_noise
+      obj: {fileID: 2800000, guid: 61130d16b5cd78448850ad77da1bbeee, type: 3}
+    - fullPath: Assets/_Project/Texture/dissolvMap.png
+      fileName: dissolvMap.png
+      Address: _Project/Texture/dissolvMap
+      obj: {fileID: 2800000, guid: 3e10c497469c19a4e987596bee5d160a, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall02_Diffuse.png
+      fileName: Wall02_Diffuse.png
+      Address: _Project/Texture/Wall02_Diffuse
+      obj: {fileID: 2800000, guid: 5b224cfc652cc194099dc4669005bc25, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall02_Normal.png
+      fileName: Wall02_Normal.png
+      Address: _Project/Texture/Wall02_Normal
+      obj: {fileID: 2800000, guid: 4abbaa9fee82636469de8c81365dec46, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall05_Diffuse.png
+      fileName: Wall05_Diffuse.png
+      Address: _Project/Texture/Wall05_Diffuse
+      obj: {fileID: 2800000, guid: 7290244cb79d888458564988dc5fdc59, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall05_Normal.png
+      fileName: Wall05_Normal.png
+      Address: _Project/Texture/Wall05_Normal
+      obj: {fileID: 2800000, guid: 3d48006fad472854b864649197687ad8, type: 3}
+    - fullPath: Assets/_Project/Texture/xn13-2 1.png
+      fileName: xn13-2 1.png
+      Address: _Project/Texture/xn13-2 1
+      obj: {fileID: 2800000, guid: f0a0c7e4c501f3c489e9a35acc0ac737, type: 3}
+    - fullPath: Assets/_Project/Texture/xn13-2.png
+      fileName: xn13-2.png
+      Address: _Project/Texture/xn13-2
+      obj: {fileID: 2800000, guid: 0f7dd5f25378a744f9c5a41091f7ae4b, type: 3}
+    - fullPath: Assets/_Project/Texture/1.jpg
+      fileName: 1.jpg
+      Address: _Project/Texture/1
+      obj: {fileID: 2800000, guid: 713806b9c2768c34ebf367558cea9027, type: 3}
+    - fullPath: Assets/_Project/Texture/2.jpg
+      fileName: 2.jpg
+      Address: _Project/Texture/2
+      obj: {fileID: 2800000, guid: dce8ae8a64dd2f04b953078f07682ad2, type: 3}
+    - fullPath: Assets/_Project/Texture/3.jpg
+      fileName: 3.jpg
+      Address: _Project/Texture/3
+      obj: {fileID: 2800000, guid: 7a4ecd1394130ec4aa4d364527463916, type: 3}
+    - fullPath: Assets/_Project/Texture/4.jpg
+      fileName: 4.jpg
+      Address: _Project/Texture/4
+      obj: {fileID: 2800000, guid: 8874f81bddb38a6428e1095a41a66075, type: 3}
+    - fullPath: Assets/_Project/Texture/5.jpg
+      fileName: 5.jpg
+      Address: _Project/Texture/5
+      obj: {fileID: 2800000, guid: 445def9279cb6234d81f762fa9b7db64, type: 3}
+    - fullPath: Assets/_Project/Texture/6.jpg
+      fileName: 6.jpg
+      Address: _Project/Texture/6
+      obj: {fileID: 2800000, guid: 39bebfb8f3dc6fa4fbcb9b44f2ef3bea, type: 3}
+    - fullPath: Assets/_Project/Texture/bump.jpg
+      fileName: bump.jpg
+      Address: _Project/Texture/bump
+      obj: {fileID: 2800000, guid: 7314756daa3c2b046abff2a41b1fb21a, type: 3}
+    - fullPath: Assets/_Project/Texture/bump3.jpg
+      fileName: bump3.jpg
+      Address: _Project/Texture/bump3
+      obj: {fileID: 2800000, guid: 023732f83ab23ba47b4590b13c072d8b, type: 3}
+    - fullPath: Assets/_Project/Texture/bump4.jpg
+      fileName: bump4.jpg
+      Address: _Project/Texture/bump4
+      obj: {fileID: 2800000, guid: 8c29eeaee3628db459ac16c2bb438a9f, type: 3}
+    - fullPath: Assets/_Project/Texture/Crate_Diffuse.jpg
+      fileName: Crate_Diffuse.jpg
+      Address: _Project/Texture/Crate_Diffuse
+      obj: {fileID: 2800000, guid: 29557748e913cba449b584b09b1995c7, type: 3}
+    - fullPath: Assets/_Project/Texture/Crate_Normal.jpg
+      fileName: Crate_Normal.jpg
+      Address: _Project/Texture/Crate_Normal
+      obj: {fileID: 2800000, guid: 1a509d41291e83c43bba11b909bdf12b, type: 3}
+    - fullPath: Assets/_Project/Texture/fog_noise.jpg
+      fileName: fog_noise.jpg
+      Address: _Project/Texture/fog_noise
+      obj: {fileID: 2800000, guid: a04470fa16718474bb64cc7134fc7d4c, type: 3}
+    - fullPath: Assets/_Project/Texture/ramp.jpg
+      fileName: ramp.jpg
+      Address: _Project/Texture/ramp
+      obj: {fileID: 2800000, guid: 6674ce02467b8b444bd475cc5f3fb2e8, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall03_Diffuse.jpg
+      fileName: Wall03_Diffuse.jpg
+      Address: _Project/Texture/Wall03_Diffuse
+      obj: {fileID: 2800000, guid: 1ebfa46e9d30f7844be67eea33d8b367, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall03_Normal.jpg
+      fileName: Wall03_Normal.jpg
+      Address: _Project/Texture/Wall03_Normal
+      obj: {fileID: 2800000, guid: 04831a16a29aa8f4d929d0dfa316de87, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall04_Diffuse.jpg
+      fileName: Wall04_Diffuse.jpg
+      Address: _Project/Texture/Wall04_Diffuse
+      obj: {fileID: 2800000, guid: 635c741f90b228242aa699eaaa48ca2c, type: 3}
+    - fullPath: Assets/_Project/Texture/Water_Diffuse.jpg
+      fileName: Water_Diffuse.jpg
+      Address: _Project/Texture/Water_Diffuse
+      obj: {fileID: 2800000, guid: 0e4b01cece9020141b54c1c0c482777e, type: 3}
+    - fullPath: Assets/_Project/Texture/water_noise.jpg
+      fileName: water_noise.jpg
+      Address: _Project/Texture/water_noise
+      obj: {fileID: 2800000, guid: 5e0b2f9f146f9954c96ee5038cffd633, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall01_Diffuse.tga
+      fileName: Wall01_Diffuse.tga
+      Address: _Project/Texture/Wall01_Diffuse
+      obj: {fileID: 2800000, guid: e81722b08d6d9dc4a902326f411c34ce, type: 3}
+    - fullPath: Assets/_Project/Texture/Wall01_Normal.tga
+      fileName: Wall01_Normal.tga
+      Address: _Project/Texture/Wall01_Normal
+      obj: {fileID: 2800000, guid: da805f7019fa49f4d8dfdc254186e4c7, type: 3}
+  - pathMatch: mat
+    pathExclude: TextMesh Pro
+    suffixMatch: .mat
+    groupName: Mat
+    AddressPaths:
+    - fullPath: Assets/_Project/Mat/BaseMaterial.mat
+      fileName: BaseMaterial.mat
+      Address: _Project/Mat/BaseMaterial
+      obj: {fileID: 2100000, guid: f73cb07c1e07f744cb3aa0bdbc2ab623, type: 2}
+    - fullPath: Assets/_Project/Mat/BumpMaterial.mat
+      fileName: BumpMaterial.mat
+      Address: _Project/Mat/BumpMaterial
+      obj: {fileID: 2100000, guid: 81b232c0432106c4592343ee13c6116b, type: 2}
+    - fullPath: Assets/_Project/Mat/TestMaterial.mat
+      fileName: TestMaterial.mat
+      Address: _Project/Mat/TestMaterial
+      obj: {fileID: 2100000, guid: ac069692ff37ce649a33dac1e11c676e, type: 2}
+  - pathMatch: bytes
+    pathExclude: TextMesh Pro
+    suffixMatch: .bytes
+    groupName: Bytes
+    AddressPaths:
+    - fullPath: Assets/_Project/Bytes/HotUpdate.dll.bytes
+      fileName: HotUpdate.dll.bytes
+      Address: _Project/Bytes/HotUpdate
+      obj: {fileID: 4900000, guid: e7fa5af57ce913346a83ceae70ebcf5b, type: 3}
+  - pathMatch: scene
+    pathExclude: TextMesh Pro
+    suffixMatch: .unity
+    groupName: Scene
+    AddressPaths:
+    - fullPath: Assets/_Project/Scenes/Game.unity
+      fileName: Game.unity
+      Address: _Project/Scenes/Game
+      obj: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    - fullPath: Assets/_Project/Scenes/Main.unity
+      fileName: Main.unity
+      Address: _Project/Scenes/Main
+      obj: {fileID: 102900000, guid: d7c2eb42a2cee4d47b8b5b229d82c2c7, type: 3}
+  - pathMatch: shader
+    pathExclude: TextMesh Pro
+    suffixMatch: .shader
+    groupName: Shader
+    AddressPaths:
+    - fullPath: Assets/_Project/Shader/BumpShader.shader
+      fileName: BumpShader.shader
+      Address: _Project/Shader/BumpShader
+      obj: {fileID: 4800000, guid: 2aaf5ebf507251f4aa6fab9ba6afff28, type: 3}
+    - fullPath: Assets/_Project/Shader/TestShader.shader
+      fileName: TestShader.shader
+      Address: _Project/Shader/TestShader
+      obj: {fileID: 4800000, guid: fa66ca4dabd71f04ab0b8d9a9210ae95, type: 3}
+  - pathMatch: model
+    pathExclude: TextMesh Pro
+    suffixMatch: .prefab
+    groupName: Prefabs
+    AddressPaths:
+    - fullPath: Assets/_Project/Prefabs/Model/Plane (1).prefab
+      fileName: Plane (1).prefab
+      Address: _Project/Prefabs/Model/Plane (1)
+      obj: {fileID: 6398626742279117181, guid: 9786622659319f4479e2258f600cdab5, type: 3}
+    - fullPath: Assets/_Project/Prefabs/Model/Plane.prefab
+      fileName: Plane.prefab
+      Address: _Project/Prefabs/Model/Plane
+      obj: {fileID: 1172141286062070063, guid: fe9146683e3ebff4c9d7c7330953347c, type: 3}
+    - fullPath: Assets/_Project/Prefabs/Model/Sphere (1).prefab
+      fileName: Sphere (1).prefab
+      Address: _Project/Prefabs/Model/Sphere (1)
+      obj: {fileID: 4805886324607475990, guid: 114cf0019e3edc64285f1874e2633d81, type: 3}
+    - fullPath: Assets/_Project/Prefabs/Model/Sphere (2).prefab
+      fileName: Sphere (2).prefab
+      Address: _Project/Prefabs/Model/Sphere (2)
+      obj: {fileID: 5277062247909441009, guid: cf1790e05f9287547b29ccc3017323a7, type: 3}
+    - fullPath: Assets/_Project/Prefabs/Model/Sphere.prefab
+      fileName: Sphere.prefab
+      Address: _Project/Prefabs/Model/Sphere
+      obj: {fileID: 3853796879351992266, guid: b884dfff64001884fb61fc0db706303a, type: 3}
+  - pathMatch: ui
+    pathExclude: TextMesh Pro
+    suffixMatch: .prefab
+    groupName: UI
+    AddressPaths:
+    - fullPath: Assets/_Project/Prefabs/UI/MainView.prefab
+      fileName: MainView.prefab
+      Address: _Project/Prefabs/UI/MainView
+      obj: {fileID: 5187039176613246347, guid: f3c46f0622c88f84c83f1ae9ab5890ce, type: 3}
